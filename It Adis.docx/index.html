@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <title>IT ADIS — Брендбук и дизайн интерьера</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="deck" id="deck" aria-label="Презентация IT ADIS"></main>
+    <div class="hud">
+      <div class="hud-brand">
+        <span class="mini-mark">A</span
+        ><span>IT ADIS <i>БРЕНДБУК / INTERIOR</i></span>
+      </div>
+      <div class="hud-controls">
+        <button id="prev" aria-label="Предыдущий слайд">←</button
+        ><span id="counter">01 / 29</span
+        ><button id="next" aria-label="Следующий слайд">→</button
+        ><button id="full" aria-label="Полноэкранный режим">⛶</button
+        ><button id="print" aria-label="Печать или PDF">PDF</button>
+      </div>
+    </div>
+    <div class="progress"><span id="progress"></span></div>
+    <div class="notice" id="notice" role="status"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
